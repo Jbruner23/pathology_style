@@ -1,0 +1,36 @@
+adain_range:
+- 25
+- 45
+attn_mask: /Users/jannabruner/Documents/research/sign_language_project/video-illustration/images/samples/bonn/left_hand_mask.png
+attn_output: /Users/jannabruner/Documents/research/sign_language_project/video-illustration/results/heatmaps/short_list_max_arr/test
+contrast_strength: 1.67
+cross_attn_32_range:
+- 0
+- 0
+cross_attn_64_range:
+- 0
+- 3
+domain_name: woman
+image_frame_1_path: /Users/jannabruner/Documents/research/sign_language_project/video-illustration/images/samples/bonn/bonn_frame_0026.jpg
+image_frame_2_path: /Users/jannabruner/Documents/research/sign_language_project/video-illustration/images/samples/bonn/bonn_frame_0014.jpg
+inject_32_res: false
+inject_64_res: false
+key_masks_path: null
+key_scale: null
+list_tokens:
+- 411
+load_latents: true
+num_timesteps: 3
+object_noun: woman
+output_path: output/woman/query=bonn_frame_0026--key=509_white_bgd_scaled--value=509_white_bgd_scaled
+overlay_type: sim_overlay
+prompt: A photo of a woman
+query_masks_path: null
+query_scale: null
+seed: 42
+skip_steps: 0
+style_image_path: /Users/jannabruner/Documents/research/sign_language_project/video-illustration/images/color_ref_style/509_white_bgd_scaled.png
+swap_guidance_scale: 3.5
+use_masked_adain: false
+value_masks_path: null
+value_scale: null
